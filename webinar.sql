@@ -2,7 +2,7 @@ CREATE DATABASE php_task;
 
 USE php_task;
 
-CREATE TABLE webinars (
+CREATE TABLE webinar (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     description TEXT,
